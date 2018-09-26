@@ -1,0 +1,2 @@
+ knife bootstrap 13.59.59.0 --sudo -x ubuntu -i kavitha_awskey.pem -N "node3" -r "recipe[demo1]"
+ sudo chef-client
